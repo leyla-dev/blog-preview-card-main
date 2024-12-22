@@ -30,8 +30,13 @@ body {
   font-size: 14px;
   background-color: hsl(47, 88%, 63%);
 }
+
 .content {
-  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .card {
@@ -43,11 +48,13 @@ body {
   box-shadow: 8px 8px 0px #000000;
   border-radius: 20px;
 }
+
 .card .card-header img {
   border-radius: 10px;
   width: 100%;
   height: auto;
 }
+
 .card .card-body {
   margin-top: 20px;
 }
@@ -67,6 +74,7 @@ body {
 .badge:hover {
   opacity: 0.8;
 }
+
 .published {
   margin: 15px 0;
   font-family: "Figtree";
@@ -86,6 +94,7 @@ body {
   color: hsl(47, 88%, 63%);
   transition: 1s;
 }
+
 .text {
   color: #6b6b6b;
   font-family: "Figtree";
@@ -95,17 +104,21 @@ body {
   line-height: 140%;
   padding-top: 15px;
 }
-.card-footer{
+
+.card-footer {
   margin-top: 20px;
 }
+
 .avatar_wrap {
   display: flex;
   align-items: center;
 }
+
 .avatar_wrap img {
   width: 32px;
   height: 32px;
 }
+
 .avatar_wrap .user_name {
   margin-left: 10px;
   font-family: "Figtree-ExtraBold";
